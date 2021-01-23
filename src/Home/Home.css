@@ -24,11 +24,56 @@
     height: 500px;
 }
 .header{
-    display: inline-block;
-    margin: 100px 130px;
-    
+    /* background: chocolate; */
+    width: 450px;
+    height: 200px;
+    padding: 10px 10px;
+    display: table;
 }
 h1{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
     color: #0059A0;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ .picture1{
+    position: relative;
+}
+.picture1 img{
+    position: absolute;
+    left: 49%;
+    transform: translate(0,-80%);
+    width: 550px;
+    height: 320px;
+    z-index: 2;
+}
+.picture2{
+    position: relative;
+}
+.picture2 img{
+    position: absolute;
+    left: -2%;
+    width: 550px;
+    height: 320px;
+    z-index: 1;
+}
+.text{
+     /* background-color: cornflowerblue;  */
+    width: 230px;
+    height: 200px;
+    padding: 10px 10px;
+    display: table;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+} 
+p{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #0059A0;
+    font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
