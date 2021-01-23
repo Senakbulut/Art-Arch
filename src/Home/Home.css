@@ -22,6 +22,7 @@
     border-radius: 10px;
     width: 1000px;
     height: 500px;
+    animation: fadeIn ease 3s;
 }
 .header{
     /* background: chocolate; */
@@ -29,6 +30,7 @@
     height: 200px;
     padding: 10px 10px;
     display: table;
+    animation: fadeIn ease 3s;
 }
 h1{
     display: table-cell;
@@ -37,6 +39,7 @@ h1{
     color: #0059A0;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: fadeIn ease 3s;
 }
  .picture1{
     position: relative;
@@ -68,6 +71,7 @@ h1{
     position: absolute;
     left: 60%;
     top: 50%;
+    animation: fadeIn ease 3s;
 } 
 p{
     display: table-cell;
@@ -76,4 +80,9 @@ p{
     color: #0059A0;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: fadeIn ease 3s;
+}
+@keyframes fadeIn{
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
