@@ -8,16 +8,16 @@ nav{
 }
 nav ul{
 	list-style: none;
-	display: flex;
+	display:inline-flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-}
+} 
 nav ul li{
 	padding: 15px 0;
 }
 nav ul li.menu{
-	margin: 0 15px;
+	margin: 0 25px;
 	text-align: center;
 	position: relative;
 	order:20;
@@ -29,7 +29,7 @@ nav ul li.menu:after{
 	bottom: 10px;
 	height: 3px;
 	width: 100%;
-	background: #025197;
+	background: #fd951c;
 	opacity: 0;
 	transition: 0.2s linear;
 }
@@ -38,8 +38,13 @@ opacity: 1;
 }
 
 nav ul li.logo{
-    width: min-content;
+	background: url("./firca.png");
+    max-width: 200px; 
 	flex-grow: 1;
+	margin-right: 60px;
+}
+nav ul li.logo a{
+	font-weight:600;
 }
 nav ul li a{
 	color:#025197;
