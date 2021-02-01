@@ -32,7 +32,7 @@
     display: table;
      animation: fadeIn ease 3s; 
 }
-h1{
+.header h1{
     display: table-cell;
     vertical-align: middle;
     text-align: center;

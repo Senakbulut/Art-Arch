@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 10;
+    padding: 10;
+  }
+  .text-header{
+    width: 200px;
+    height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: url("./firca.png");
+    animation: fadeIn ease 3s; 
+  }
+  
+  .text-header h1{
+    text-align: center;
+    color: #0059A0;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .outer-container{
+    width: 100%;
+    height: 100vh;
+    background: #E8E8E8;
+    background-size: cover;
+  }
+
+  .container-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+
+  }
+  
+  .thumbnails {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    box-shadow: 10px 10px 8px #888888;
+    
+  }
+    .thumbnails li {
+      /* flex: auto;  */
+    }
+  
+    .thumbnails a {
+      display: block;
+    }
+    
+    .thumbnails img {
+      width: 30vmin;
+      height: 20vmin;
+      object-fit: cover;
+      object-position: top;
+      filter: grayscale(1);
+    }
+    .thumbnails img:hover{
+        filter: none;
+    }
+  
+  .slides {
+    overflow: hidden;
+    width: 75vmin;
+    height: 60vmin;
+    box-shadow: 10px 10px 8px #888888;
+  } 
+    .slides li {
+      width: 75vmin;
+      height: 60vmin;
+      position: absolute;
+      z-index: 1;
+      list-style-type:none;
+     
+    }
+    
+    .slides img {
+      width: 75vmin;
+      height: 60vmin;
+      object-fit: cover;
+      object-position: top;
+      
+    }
+  
+  
+  .slides li:target {
+    z-index: 3;
+    animation: slide 1s 1;
+  }
+  
+  .slides li:not(:target) {
+    animation: hidden 1s 1;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateY(-20%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  @keyframes hidden {
+    0% {
+      z-index: 2;
+    }
+    100% {
+      z-index: 2;
+    }
+  }
+  @keyframes fadeIn{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
