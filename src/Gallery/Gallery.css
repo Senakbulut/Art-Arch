@@ -28,6 +28,23 @@ html {
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+  .text-slide{
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    display: table;
+    position: relative;
+     animation: fadeIn ease 3s; 
+  }
+  .text-slide p{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #0059A0;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     animation: fadeIn ease 3s; 
+  }
   .outer-container{
     width: 100%;
     height: 100vh;
@@ -39,10 +56,30 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 40px;
 
   }
-  
+  .button{
+    position: relative;
+  }
+  .button a{
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+    color: oldlace;
+    text-align: center;
+    padding: 22px 35px;
+    background: rgb(160, 213, 235);
+    border-radius: 100%;
+    position: absolute;
+    left: 85%;
+    transform: translate(0,-270%);
+    
+}
+.button a:hover{
+  background:rgb(132, 203, 231);
+  transition: background-color 0.2s ease-in-out;
+}
   .thumbnails {
     display: flex;
     flex-direction: column;

@@ -23,7 +23,7 @@ function About() {
             among the photos we have chosen for you.<br/><br/>
             Wouldn't you like to see places you've never been to as if they were there?
             <br/><br/>
-            So let's get started!
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;So let's get started!
           </p>
         </div>
         </Fade>

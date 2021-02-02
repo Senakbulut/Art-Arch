@@ -7,7 +7,6 @@ function Navbar() {
 
   return (
     <div>
-
       <nav>
           <ul>
       <li class="logo" ><a href="#">ART & ARCH</a></li>
