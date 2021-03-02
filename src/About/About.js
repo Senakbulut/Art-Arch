@@ -4,7 +4,8 @@ import {Fade} from 'react-reveal';
 function About() {
   return (
     <div>
-      <div className="container-about">
+     <div className="container-about">
+      
         <div className="header-about">
           <h1>About Us</h1>
         </div>

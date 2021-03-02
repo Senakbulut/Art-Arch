@@ -2,7 +2,6 @@ html {
     box-sizing: border-box;
     height: 100%;
   }
-  
   *,
   *::before,
   *::after {
@@ -27,6 +26,7 @@ html {
     color: #0059A0;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: fadeIn ease 3s;
   }
   .text-slide{
     width: 100%;
@@ -59,22 +59,18 @@ html {
     padding-top: 40px;
 
   }
-  .button{
+  .arrow{
     position: relative;
   }
-  .button a{
-    text-decoration: none;
-    font-size: 3em;
-    font-weight: bold;
-    color: oldlace;
-    text-align: center;
-    padding: 22px 35px;
-    background: rgb(160, 213, 235);
-    border-radius: 100%;
+  .arrow > a > img{
     position: absolute;
     left: 85%;
-    transform: translate(0,-270%);
-    
+    transform: translate(0,-310%);
+    max-width: 80px;
+    max-height: 80px;
+}
+.arrow > a >img:hover{
+  cursor: pointer;
 }
 .button a:hover{
   background:rgb(132, 203, 231);
@@ -87,9 +83,7 @@ html {
     box-shadow: 10px 10px 8px #888888;
     
   }
-    .thumbnails li {
-      /* flex: auto;  */
-    }
+
   
     .thumbnails a {
       display: block;
@@ -120,7 +114,7 @@ html {
       list-style-type:none;
      
     }
-    
+
     .slides img {
       width: 75vmin;
       height: 60vmin;
@@ -128,8 +122,6 @@ html {
       object-position: top;
       
     }
-  
-  
   .slides li:target {
     z-index: 3;
     animation: slide 1s 1;

@@ -45,9 +45,11 @@ function Gallery() {
             </li>
           </ul>
         </div>
-       <ul className="button">
-       <li><a href="#">></a></li>
-       </ul>
+       <div className="arrow">
+         <a href="#">
+         <img src="images/up-arrow.png" alt=""/>
+         </a>
+       </div>
         
       </div>
     </div>

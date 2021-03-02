@@ -9,12 +9,12 @@ function Navbar() {
     <div>
       <nav>
           <ul>
-      <li class="logo" ><a href="#">ART & ARCH</a></li>
-			<li class="menu"><a href="#">Home</a></li>
-			<li class="menu"><a href="#">About Us</a></li>
-			<li class="menu"><a href="#">Gallery</a></li>
-			<li class="menu"><a href="#">Contact</a></li>
-			<li class="btn"><i><FaBars/></i></li>
+      <li className="logo" ><a href="#">ART & ARCH</a></li>
+			<li className="menu"><a href="#">Home</a></li>
+			<li className="menu"><a href="#">About Us</a></li>
+			<li className="menu"><a href="#">Gallery</a></li>
+			<li className="menu"><a href="#">Contact</a></li>
+			<li className="btn"><i><FaBars/></i></li>
 
           </ul>
       </nav>
