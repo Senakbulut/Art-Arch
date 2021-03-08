@@ -1,5 +1,6 @@
 import React from "react";
 import "./Gallery.css";
+import { Link } from 'react-router-dom';
 function Gallery() {
   return (
     <div>
@@ -46,7 +47,7 @@ function Gallery() {
           </ul>
         </div>
        <div className="arrow">
-         <a href="#">
+         <a href="/detail">
          <img src="images/up-arrow.png" alt=""/>
          </a>
        </div>

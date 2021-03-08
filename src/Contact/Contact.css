@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containerContact{
+    width: 100%;
+    height: 100vh;
+    background: #E8E8E8;
+    background-size: cover;
+    position: relative;
+}
+.backgroundContact{
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to right, rgb(252, 234, 187), rgb(248, 181, 0));
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+.mainContact{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 400px;
+    background: #E8E8E8;
+    border-radius: 20px;
+    border: rgba(206, 206, 206, 0.533) 1px solid;
+    box-shadow: -8px -5px 8px 2px rgba(153, 152, 152, 0.533);
+    z-index: 2;
+}
+.mainContact h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: #0059A0;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mainContact iframe{
+    border-radius: 8%;
+    border: none;
+    padding: 2%;
+}
+.mainContact .textSocial{
+    position: absolute;
+    left: 50%;
+    margin-left: 10%;
+    display: inline-block;
+    top: 25%;
+} 
+.mainContact .textSocial p{
+    list-style: none;
+    text-decoration: underline;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0059A0;
+    font-weight: 600;
+}
+.mainContact .textSocial a{
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    margin-left: 5px;
+}

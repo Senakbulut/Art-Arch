@@ -13,16 +13,16 @@ nav ul{
 	align-items: center;
 	justify-content: center;
 } 
-nav ul li{
+nav ul .logo, .menu{
 	padding: 15px 0;
 }
-nav ul li.menu{
+nav ul .menu{
 	margin: 0 25px;
 	text-align: center;
 	position: relative;
 	order:20;
 }
-nav ul li.menu:after{
+nav ul .menu:after{
 	position: absolute;
 	content: '';
 	left:0;
@@ -33,43 +33,40 @@ nav ul li.menu:after{
 	opacity: 0;
 	transition: 0.2s linear;
 }
-nav ul li.menu:hover:after{
+nav ul .menu:hover:after{
 opacity: 1;
 }
 
-nav ul li.logo{
+nav ul .logo{
 	background: url("./firca.png");
     max-width: 200px; 
 	flex-grow: 1;
 	margin-right: 60px;
 }
-nav ul li.logo a{
+nav ul .logo a{
 	font-weight:600;
 }
-nav ul li a{
+nav ul  a{
 	color:#025197;
 	font-size: 18px;
 	text-decoration: none;
 	transition: 0.2s ease;
 }
-nav ul li:hover a{
-	color:#0374d6;
-}
-nav ul li i{
+nav ul  i{
 	font-size: 23px;
 	color: rgb(82, 82, 82);
 }
-nav ul li.btn{
+nav ul .btn{
 	cursor: pointer;
 	display: none;
 }
 
 @media only screen and (max-width:650px){
-	nav ul li.menu{
+	nav ul .menu{
 		width: 100%;
 		display: none;
 	}
-	nav ul li.btn{
+	nav ul .btn{
 		display: block;
 	}
 	.menu.goster{

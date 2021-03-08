@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 function Navbar() {
 
@@ -9,11 +9,11 @@ function Navbar() {
     <div>
       <nav>
           <ul>
-      <li className="logo" ><a href="#">ART & ARCH</a></li>
-			<li className="menu"><a href="#">Home</a></li>
-			<li className="menu"><a href="#">About Us</a></li>
-			<li className="menu"><a href="#">Gallery</a></li>
-			<li className="menu"><a href="#">Contact</a></li>
+      <Link to="/" className="logo" >ART & ARCH</Link>
+			<Link to="/" className="menu">Home</Link>
+			<Link to="/about" className="menu">About Us</Link>
+			<Link to="/gallery" className="menu">Gallery</Link>
+			<Link to="/contact" className="menu">Contact</Link>
 			<li className="btn"><i><FaBars/></i></li>
 
           </ul>

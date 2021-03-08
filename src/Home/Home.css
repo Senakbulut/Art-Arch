@@ -69,7 +69,7 @@
     display: table;
     position: relative;
     left: 63%;
-    top: 15%;
+    top: 20%;
      animation: fadeIn ease 3s; 
 } 
 .text p{
@@ -79,7 +79,7 @@
     color: #0059A0;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     animation: fadeIn ease 3s; 
+    animation: fadeIn ease 3s; 
 }
 @keyframes fadeIn{
     0% {opacity:0;}
