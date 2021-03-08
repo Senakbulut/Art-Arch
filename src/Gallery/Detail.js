@@ -9,7 +9,18 @@ function Detail() {
                    <h1>Gallery</h1>
                </div>
                <div className="gallerydetail">
-
+                    <div className="box"></div>
+                    <div className="box"></div>
+                    <div className="box"></div>
+                    <div className="box"></div>
+                    <div className="box"></div>
+                    <div className="box"></div>
+                    <div className="box"></div>
+                    <div className="box"></div>
+                    <div className="box"></div>
+                    <div className="box"></div>
+                    <div className="box"></div>
+                    <div className="box"></div>
                </div>
            </div>
         </div>
