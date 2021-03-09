@@ -21,9 +21,76 @@
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: 130px 260px 130px;
 }
-.gallerydetail > .box{
-    background-color: indianred;
+
+.box2 img{
+    box-shadow: 10px 10px 8px #888888;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 260px;
+    width: 204px;
+    z-index: 1;
 }
+
+.box1 img{
+    box-shadow: 10px 10px 8px #888888;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 204px;
+    height: 130px;
+    z-index: 1;
+}
+
 .box img{
-    
+    box-shadow: 10px 10px 8px #888888;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 130px;
+    width: 416px;
+    z-index: 1;
+}
+
+.box3 img{
+    box-shadow: 10px 10px 8px #888888;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 260px;
+    width: 416px;
+    z-index: 1;
+}
+.box.scale{
+    transform: scale(1.5);
+    z-index:2;
+   
+}
+.box1.scale{
+    transform: scale(1.5);
+    z-index: 2;
+}
+.box1:nth-child(1).scale{
+    position: relative;
+    left: 250%;
+    top: 150%;
+}
+.box1:nth-child(4).scale{
+    position: relative;
+    top: 150%;
+    right: 250%;
+}
+.box1:nth-child(9).scale{
+    position: relative;
+    left: 250%;
+    bottom: 150%;
+}
+.box1:nth-child(12).scale{
+    position: relative;
+    right: 250%;
+    bottom: 150%;
+}
+.box2.scale{
+    transform: scale(1.5);
+    z-index: 2;
+}
+.box3.scale{
+    transform: scale(1.5);
+    z-index: 2;
 }
