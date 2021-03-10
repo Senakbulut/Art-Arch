@@ -20,8 +20,8 @@
     gap: 1em;
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: 130px 260px 130px;
+    z-index: 1;
 }
-
 .box2 img{
     box-shadow: 10px 10px 8px #888888;
     cursor: pointer;
@@ -30,7 +30,6 @@
     width: 204px;
     z-index: 1;
 }
-
 .box1 img{
     box-shadow: 10px 10px 8px #888888;
     cursor: pointer;
@@ -48,7 +47,6 @@
     width: 416px;
     z-index: 1;
 }
-
 .box3 img{
     box-shadow: 10px 10px 8px #888888;
     cursor: pointer;
@@ -58,14 +56,92 @@
     z-index: 1;
 }
 .box.scale{
-    transform: scale(1.5);
+    transform: scale(3);
     z-index:2;
+}
+.box > div, .box1 > div, .box2 > div, .box3 > div{
+    visibility: hidden;
+}
+
+.box.texts{
+    position: relative;
+    top: -103%;
+    width: 95px;
+    padding: 2px;
+    height: 130px;
+    border-radius: 20px;
+    visibility: visible;
+    background: rgba(80, 79, 79, 0.4);
    
 }
+.box.texts h1{
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 17%;
+    top: 5%;
+}
+.box.texts p{
+    position: relative;
+    top: 15%;
+    left: 2%;
+    font-size: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.box1.texts{
+    visibility: visible;
+    background: rgba(80, 79, 79, 0.4);
+    position: relative;
+    top: -103%;
+    width: 80px;
+    padding: 2px;
+    height: 130px;
+    border-radius: 20px;
+}
+.box1.texts h1{
+    font-size: 8px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 17%;
+    top: 5%;
+}
+.box1.texts p{
+    position: relative;
+    top: 15%;
+    left: 2%;
+    font-size: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.box.blur,.box1.blur,.box2.blur,.box3.blur{
+    filter:grayscale(1) blur(5px);
+}
+.box:nth-child(2).scale{
+    position: relative;
+    top: 150%;
+    left: 50%;
+}
+.box:nth-child(3).scale{
+    position: relative;
+    top: 150%;
+    right: 50%;
+}
+.box:nth-child(10).scale{
+    position: relative;
+    bottom: 150%;
+    left: 50%;
+}
+.box:nth-child(11).scale{
+    position: relative;
+    bottom: 150%;
+    right: 50%;
+}
 .box1.scale{
-    transform: scale(1.5);
+    transform: scale(3.5);
     z-index: 2;
 }
+
 .box1:nth-child(1).scale{
     position: relative;
     left: 250%;
@@ -87,10 +163,76 @@
     bottom: 150%;
 }
 .box2.scale{
-    transform: scale(1.5);
+    transform: scale(2);
     z-index: 2;
 }
+.box2.texts{
+    visibility: visible;
+    background: rgba(80, 79, 79, 0.4);
+    position: relative;
+    top: -101.5%;
+    width: 80px;
+    padding: 2px;
+    height: 260px;
+    border-radius: 20px;
+}
+.box2.texts h1{
+    font-size: 8px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 9%;
+    top: 5%;
+}
+.box2.texts p{
+    position: relative;
+    top: 15%;
+    left: 2%;
+    font-size: 6px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.box2:nth-child(5).scale{
+    position: relative;
+    left: 260%;
+}
+.box2:nth-child(8).scale{
+    position: relative;
+    right: 260%;
+}
 .box3.scale{
-    transform: scale(1.5);
+    transform: scale(2);
     z-index: 2;
+}
+.box3.texts{
+    visibility: visible;
+    background: rgba(80, 79, 79, 0.4);
+    position: relative;
+    top: -101.5%;
+    width: 120px;
+    padding: 2px;
+    height: 260px;
+    border-radius: 20px;
+}
+.box3.texts h1{
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 15%;
+    top: 5%;
+}
+.box3.texts p{
+    position: relative;
+    top: 15%;
+    left: 2%;
+    font-size: 6px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.box3:nth-child(6).scale{
+    position: relative;
+    left: 50%;
+}
+.box3:nth-child(7).scale{
+    position: relative;
+    right: 50%;
 }
