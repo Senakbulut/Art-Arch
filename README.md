@@ -24,7 +24,7 @@ This website is made with React Js javascript library.
 
 - [ ] Responsive 
 
-## LICENSE & COPYRIGHT
+# LICENSE & COPYRIGHT 📃
 
 © Copyright 2021 Sena Akbulut
 
