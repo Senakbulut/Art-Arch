@@ -1,4 +1,4 @@
-# Art & Arch. 📸
+# Art & Arch 📸
 
 With Art & Arch, you can see artistic buildings around the world and get information about these buildings. 
 This website is made with React Js javascript library.
