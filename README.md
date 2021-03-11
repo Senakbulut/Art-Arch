@@ -19,10 +19,14 @@ This website is made with React Js javascript library.
 | ------------- | 
 | ![ezgif com-gif-maker (17)](https://user-images.githubusercontent.com/34038741/110805495-2f940d00-8292-11eb-891f-4a4f0e96d1c1.gif)  | 
 
+## v1
+
+- [x] Events
+- [x] Static Design
 
 ## v2
 
-- [ ] Responsive 
+- [ ] Responsive Design
 
 # LICENSE & COPYRIGHT 📃
 
