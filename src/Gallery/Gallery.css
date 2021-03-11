@@ -51,7 +51,12 @@ html {
     background: #E8E8E8;
     background-size: cover;
   }
-
+ .prg{
+    color: darkgrey;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
   .container-gallery {
     display: flex;
     align-items: center;

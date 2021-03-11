@@ -27,7 +27,9 @@ function Home() {
             
           </div>
         </div>
+        <p> © Copyright 2021 Sena Akbulut  </p>
       </div>
+      
     </div>
   );
 }

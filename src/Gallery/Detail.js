@@ -167,8 +167,7 @@ export default class Detail extends Component {
           
         return (
             <div>
-                <div>
-           <div className="detailcontainer">
+              <div className="detailcontainer"> 
                <div className="detailheader">
                    <h1>Gallery</h1>
                </div>
@@ -186,9 +185,10 @@ export default class Detail extends Component {
                     <div className={`${boxClass3.join(' ')} ${blurclass.join(' ')} ${blurclassv.join(' ')} ${blurclassve.join(' ')} ${blurclassver.join(' ')} ${blurclassvers.join(' ')} ${blurclassversi.join(' ')} ${blurclassversio.join(' ')} ${blurclassversion.join(' ')} ${blurclassversions.join(' ')} ${blurclassversionsS.join(' ')} ${blurclassversionsSLX.join(' ')}`}><img src="images/avustralya.jpg" onClick={this.toggle3.bind(this)} id="img11"/><div className={textclass.join(' ')}><h1>Sydney Opera House</h1><p>The Sydney Opera House is a multi-venue performing arts centre at Sydney Harbour located in Sydney, New South Wales, Australia. It is one of the 20th century's most famous and distinctive buildings.Designed by Danish architect Jørn Utzon, but completed by an Australian architectural team headed up by Peter Hall, the building was formally opened on 20 October 1973[4] after a gestation beginning with Utzon's 1957 selection as winner of an international design competition.</p></div></div>
                     <div className={`${box1Class3.join(' ')} ${blurclass1.join(' ')} ${blurclassv1.join(' ')} ${blurclassve1.join(' ')} ${blurclassver1.join(' ')} ${blurclassvers1.join(' ')} ${blurclassversi1.join(' ')} ${blurclassversio1.join(' ')} ${blurclassversion1.join(' ')} ${blurclassversions1.join(' ')} ${blurclassversionsS1.join(' ')} ${blurclassversionsSL1.join(' ')}`}><img src="images/Seashell.jpg" onClick={this.toggle1box3.bind(this)} id="img12"/><div className={textclass1.join(' ')}><h1>Conch Shell House</h1><p>VISITORS SHELLING ON ISLA MUJERES was designed by one of Mexico’s most famous artists, Octavio Ocampo, and his brother Eduardo Ocampo, an architect who dreamed of building a house in the shape of a seashell. Construction started in 2001, and took three years to complete. The house is a perfect display of Ocampo’s surrealistic touch meeting summer-home functionality, and adds a unique underwater aesthetic to the neighborhood. </p></div></div>
                </div>
+               <p className="prgf"> © Copyright 2021 Sena Akbulut  </p>
            </div>
         </div>
-            </div>
+            
         )
     }
 }

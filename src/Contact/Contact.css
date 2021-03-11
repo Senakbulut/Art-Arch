@@ -9,6 +9,12 @@
     background-size: cover;
     position: relative;
 }
+.prgrf{
+    color: darkgrey;
+    position: relative;
+    left: 40%;
+    top: 60%;
+}
 .backgroundContact{
     width: 100%;
     height: 50%;
@@ -16,6 +22,7 @@
     position: absolute;
     bottom: 0px;
     z-index: 1;
+    background-size: cover;
 }
 .mainContact{
     position: absolute;

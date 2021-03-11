@@ -5,7 +5,6 @@ function About() {
   return (
     <div>
      <div className="container-about">
-      
         <div className="header-about">
           <h1>About Us</h1>
         </div>
@@ -28,6 +27,7 @@ function About() {
           </p>
         </div>
         </Fade>
+        <p> © Copyright 2021 Sena Akbulut  </p>
       </div>
     </div>
   );

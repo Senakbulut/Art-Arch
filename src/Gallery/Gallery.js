@@ -51,7 +51,7 @@ function Gallery() {
          <img src="images/up-arrow.png" alt=""/>
          </a>
        </div>
-        
+       <p className="prg"> © Copyright 2021 Sena Akbulut  </p>
       </div>
     </div>
   );
